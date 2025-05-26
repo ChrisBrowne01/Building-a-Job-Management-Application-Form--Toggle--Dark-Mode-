@@ -1,16 +1,16 @@
 /* Add styles for the form container */
-.form-header {
+.form-header form {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   background-color: #f9f9f9;
   padding: 10px;
   margin: 20px auto;
-  border: 1px;
   border-radius: 8px;
   border: 1px solid #ddd;
   max-width: 900px;
+  gap: 15px;
 }
 
 /* Add styles for the input field */
@@ -19,9 +19,9 @@
   font-weight: 400;
   border-radius: 5px;
   margin-block: 5px 15px;
-  width: 100%;
+  width: 50%;
   padding: 10px 40px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .bot-input:focus {
@@ -31,13 +31,15 @@
 }
 
 /* Add styles for the form details section */
-.form-details {
-
-}
+/* .form-details {} */
 
 /* Add styles for the category buttons container */
 .bottom-line {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /* Add styles for individual category buttons */
@@ -67,7 +69,7 @@
 /* Add styles for the job status dropdown */
 .job-status {
   padding: 10px;
-  margin-block: 15px 5px;
+  margin: 5px 15px 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
@@ -86,7 +88,7 @@
 .submit-data {
 background-color: #fa9c2a;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 20px;
   margin: 5px 15px 5px;
   border: none;
   border-radius: 5px;
@@ -108,4 +110,44 @@ background-color: #fa9c2a;
   font-size: small;
   font-weight: 500;
   color: red;
+}
+
+
+@media (max-width: 575.98px) {
+  .form-header form {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .form-details {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+    .form-header form {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 15px;
+  }
+
+  .form-details {
+    width: 70%;
+    margin: auto;
+    transition: width 0.5s ease, margin 0.5s ease;
+  }
+
+  .bottom-line {
+    justify-content: space-around;
+  }
+
+  .bot-input {
+    width: 100%;
+  }
+
+  .bot-input:focus {
+    width: 100%;
+  }
 }

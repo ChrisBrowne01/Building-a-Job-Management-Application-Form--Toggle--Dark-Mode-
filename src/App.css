@@ -24,30 +24,30 @@
   background-color: #f9f9f9;
   margin: 20px auto; 
   max-width: 900px;
-}
+} */
 
-.job-input {
+/* .job-input {
   width: 50%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
   transition: all 0.3s ease;
-}
+} */
 
-.job-input:focus {
-  outline: none; 
+/* .job-input:focus {
+  outline: none;
   border-color: #007bff; 
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+} */
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
   .job-input {
     width: 80%;
   }
-}
+} */
 
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
   .form-header form {
     flex-direction: column;
     align-items: stretch;
@@ -61,16 +61,16 @@
   .job-input:focus {
     width: 100%;
   }
-}
+} */
 
-.form-details {
+/* .form-details {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-}
+} */
 
-.tag {
+/* .tag {
   background-color: #e2e6ea;
   color: #343a40;
   border: 1px solid #dae0e5;
@@ -80,19 +80,19 @@
   font-size: 0.9rem;
   transition: background-color 0.2s ease, color 0.2s ease;
   white-space: nowrap; 
-}
+} */
 
-.tag:hover {
+/* .tag:hover {
   background-color: #007bff;
   color: white;
-}
+} */
 
-.tag.selected-tag {
+/* .tag.selected-tag {
   background-color: #007bff;
   color: white;
-}
+} */
 
-.job-status {
+/* .job-status {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -100,9 +100,9 @@
   background-color: white;
   cursor: pointer;
   min-width: 150px;
-}
+} */
 
-.sumbit-data {
+/* .sumbit-data {
   background-color: #28a745;
   color: white;
   padding: 10px 20px;
@@ -111,13 +111,13 @@
   cursor: pointer;
   font-size: 1rem;
   transition: background-color 0.2s ease;
-}
+} */
 
-.sumbit-data:hover {
+/* .sumbit-data:hover {
   background-color: #218838;
-}
+} */
 
-.error-message {
+/* .error-message {
   margin-top: 2px;
   align-items: center;
   line-height: 0.8;
@@ -125,9 +125,9 @@
   font-size: small;
   font-weight: 500;
   color: red;
-}
+} */
 
-@media (min-width: 1199.98px) {.error-message {max-width: 1140px;}}
+/* @media (min-width: 1199.98px) {.error-message {max-width: 1140px;}}
 
 @media (max-width: 991.98px) {.error-message {max-width: 960px;}}
 
