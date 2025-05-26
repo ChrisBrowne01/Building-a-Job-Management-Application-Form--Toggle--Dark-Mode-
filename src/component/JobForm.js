@@ -99,7 +99,7 @@ export const JobForm = () => {
         </select>
 
         {/* A submit button to add the job */}
-        <button type="submit" className="sumbit-data">Add Jobs</button>
+        <button type="submit" className="submit-data">Add Jobs</button>
         
         {/* Error Handling */}
         {error && <p className="error-message">{error}</p>}
