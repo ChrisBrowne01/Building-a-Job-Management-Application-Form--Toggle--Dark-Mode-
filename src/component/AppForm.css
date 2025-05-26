@@ -1,6 +1,7 @@
 /* Add styles for the form container */
 .form-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-color: #f9f9f9;
@@ -14,7 +15,7 @@
 
 /* Add styles for the input field */
 .bot-input {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   border-radius: 5px;
   margin-block: 5px 15px;
@@ -54,7 +55,7 @@
 
 .tag:hover, .tag.selected-tag:hover {
   border-color: #ae00ff; 
-  box-shadow: 0 0 5px rgba(225, 0, 255, 0.5);
+  box-shadow: 0 0 5px rgba(225, 0, 255, 0.3);
 }
 
 .tag.selected-tag {
@@ -65,7 +66,20 @@
 
 /* Add styles for the job status dropdown */
 .job-status {
+  padding: 10px;
+  margin-block: 15px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  min-width: 150px;
+}
 
+.job-status:focus-visible {
+  outline: solid 1px #ae00ff; 
+  border-color: #ae00ff; 
+  box-shadow: 0 0 2px rgba(225, 0, 255, 0.5);
 }
 
 /* Add styles for the submit button */
