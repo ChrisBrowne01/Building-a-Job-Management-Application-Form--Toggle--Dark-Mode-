@@ -7,12 +7,12 @@
 }
 
 /* Form Handling Styles */
-.job-list {
+/* .job-list {
   padding: 0 30px 0;
-}
+} */
 
 /* Style product input filter */
-.form-header form {
+/* .form-header form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,9 +36,9 @@
 }
 
 .job-input:focus {
-  outline: none; /* Remove default outline */
-  border-color: #007bff; /* Highlight border on focus */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow */
+  outline: none; 
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 @media (max-width: 991.98px) {
@@ -79,7 +79,7 @@
   cursor: pointer;
   font-size: 0.9rem;
   transition: background-color 0.2s ease, color 0.2s ease;
-  white-space: nowrap; /* Prevent text from wrapping within the button */
+  white-space: nowrap; 
 }
 
 .tag:hover {
@@ -133,7 +133,7 @@
 
 @media (max-width: 767.98px) {.error-message {max-width: 720px;}}
 
-@media (min-width: 575.98px) {.error-message {max-width: 60vw;}}
+@media (min-width: 575.98px) {.error-message {max-width: 60vw;}} */
 
 /* App Styles */
 

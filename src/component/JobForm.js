@@ -74,7 +74,7 @@ export const JobForm = () => {
           name="name"
           value={newJob.name}
           onChange={handleInputChange}
-          className="job-input" 
+          className="bot-input" 
           placeholder="Enter the job" />
         
         {/* Buttons for selecting job categories */}

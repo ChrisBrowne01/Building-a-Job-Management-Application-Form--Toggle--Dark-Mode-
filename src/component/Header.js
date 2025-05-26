@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from "../images/job-board-app-pic.png"
 import { JobForm } from './JobForm';
+import './AppForm.css';
 
 export const Header = () => {
   return (
