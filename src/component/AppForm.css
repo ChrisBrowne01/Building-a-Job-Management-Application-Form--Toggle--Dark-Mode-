@@ -14,7 +14,19 @@
 
 /* Add styles for the input field */
 .bot-input {
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-block: 5px 15px;
+  width: 100%;
+  padding: 10px 40px;
+  transition: all 0.3s ease;
+}
 
+.bot-input:focus {
+  outline: none; 
+  border-color: #ae00ff; 
+  box-shadow: 0 0 5px rgba(225, 0, 255, 0.5);
 }
 
 /* Add styles for the form details section */
