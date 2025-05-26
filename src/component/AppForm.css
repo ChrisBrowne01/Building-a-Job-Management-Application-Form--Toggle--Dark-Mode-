@@ -1,6 +1,15 @@
 /* Add styles for the form container */
 .form-header {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 900px;
 }
 
 /* Add styles for the input field */
