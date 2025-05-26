@@ -41,7 +41,26 @@
 
 /* Add styles for individual category buttons */
 .tag {
+  background-color: #e2e6ea;
+  color: #343a40;
+  border: 1px solid #dae0e5;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
 
+.tag:hover, .tag.selected-tag:hover {
+  border-color: #ae00ff; 
+  box-shadow: 0 0 5px rgba(225, 0, 255, 0.5);
+}
+
+.tag.selected-tag {
+  border: 1px solid rgba(255, 183, 0, 0.8);
+  background-color: #f4ab53;
+  color: white;
 }
 
 /* Add styles for the job status dropdown */
