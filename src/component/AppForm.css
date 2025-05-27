@@ -143,6 +143,7 @@ body.dark-mode .tag {
 
 body.dark-mode .tag.selected-tag {
   color: var(--text-color-light); 
+  background-color: var(--selected-tag-bg-light);
 }
 
 
